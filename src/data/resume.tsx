@@ -8,10 +8,9 @@ export const DATA = {
   location: "Lahore, Punjab PK.",
   locationLink: "https://www.google.com/maps/place/lahore",
   description:
-    "Software Engineer that loves doing Frontend. I love building things and helping people. Very active on Insta.",
-  summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
-  avatarUrl: "/hassan.png",
+    "Software Engineer that loves doing Frontend. I love building things and helping people. Very active on Socials.",
+  summary: "In 2023, I decided to go all-in on my love for web development, diving deep into the MERN stack, but with a special place in my heart for frontend magic. I’m always exploring the cutting edge of tech, which led me to the world of Web3, crypto, and blockchain. Building eCommerce sites with crypto payment gateways? Yep, I’ve done that! Right now, I’m having a blast learning Next.js, and I can’t wait to get my hands on Three.js to bring some 3D magic to the web.",
+  avatarUrl: "/hassan2.gif",
   skills: [
     "React",
     "Express",
@@ -26,9 +25,7 @@ export const DATA = {
     "Java",
     "C",
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-  ],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "hassansiddiqui740@gmail.com",
     tel: "+923099995169",
@@ -56,16 +53,16 @@ export const DATA = {
       },
       Facebook: {
         name: "Facebook",
-        url: "https://www.facebook.com/profile.php?id=100018056830025",
+        url: "https://mail.google.com/mail/?view=cm&fs=1&to=hassansiddiqui740@gmail.com&su=Subject%20Here&body=I%20guess%20you%20liked%20my%20work",
         icon: Icons.facebook,
-        navbar: true,
+        navbar: false,
       },
       email: {
         name: "Send Email",
-        url: "",
+        url: "https://shorturl.at/1flv7",
         icon: Icons.email,
 
-        navbar: false,
+        navbar: true,
       },
     },
   },
@@ -78,10 +75,10 @@ export const DATA = {
       location: "Lahore, Pakistan.",
       title: "Ecommerce Store Developer",
       logoUrl: "/appleland.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      start: "Dec 2023",
+      end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Implemented their eCommerce website tat is responsive. Helped them reach the level of sales that they never thought of. Eye catching landing page and attention grabbing animations!",
     },
     {
       company: "Shopify",
@@ -90,9 +87,10 @@ export const DATA = {
       location: "Remote",
       title: "Store Developer",
       logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
-      description:"Have developed various shopify stores for various businesses acros the globe"    
+      start: "Jan 2022",
+      end: "Present",
+      description:
+        "Have developed various shopify stores for various businesses acros the globe",
     },
     {
       company: "WooCommerce",
@@ -101,8 +99,8 @@ export const DATA = {
       location: "Remote",
       title: "Store Developer",
       logoUrl: "/woocommerce.jpg",
-      start: "January 2020",
-      end: "April 2020",
+      start: "",
+      end: "",
       description:
         "Developed various WooCommerce, Shoppress stores for local businesses in Pakistan",
     },
@@ -113,10 +111,10 @@ export const DATA = {
       location: "Pakistan",
       title: "App Developer/Co-founder",
       logoUrl: "/pakhomes.png",
-      start: "January 2019",
-      end: "April 2019",
+      start: "",
+      end: "Dec 2023",
       description:
-        "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
+        "Co-developed a prototype Android App(Flutter) with another colleague in COMSATS for the PakHomes App, streamlining and making it simple for Pakistani people to buy, sell and rent Real Estate properties",
     },
     // {
     //   company: "Lime",
@@ -201,10 +199,14 @@ export const DATA = {
           href: "https://bit-donate-react.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+             type: "Source",
+             href: "https://github.com/hassanaly18/BitDonate-React",
+             icon: <Icons.github className="size-3" />,
+           },
       ],
       image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
+      video: "/bit.gif",
     },
     {
       title: "Apple Land Store",
@@ -212,83 +214,63 @@ export const DATA = {
       dates: "July 2024 - Present",
       active: true,
       description:
-        "Developed as an Ecommerce store for Pakistani market of dominantly iPhone users",
-      technologies: [
-        "WooCommerce",
-        "ShopPress",
-        "Elementor"
-      ],
+        "Developed as an Ecommerce store for Pakistani market of dominantly iPhone users, [Apple Land Store](https://applelandstore.pk)",
+      technologies: ["WooCommerce", "ShopPress", "Elementor"],
       links: [
         {
           type: "Website",
           href: "https://applelandstore.pk",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/magicuidesign/magicui",
+        //   icon: <Icons.github className="size-3" />,
+        // },
       ],
       image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
+      video: "/applegif.gif",
     },
     {
       title: "PakHomes",
       href: "",
-      dates: "April 2023 - September 2023",
+      dates: "Sep 2023 - Dec 2023",
       active: true,
       description:
         "Developed for easing the process of finding and selling properties in Pakistan",
-      technologies: [
-        "Flutter",
-        "Firebase",
-        "Canva",
-        "Pub Dev"
-      ],
+      technologies: ["Flutter", "Firebase", "Canva", "Pub Dev"],
       links: [
         {
           type: "Website",
           href: "",
           icon: <Icons.globe className="size-3" />,
         },
-        {
-          type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
-          icon: <Icons.github className="size-3" />,
-        },
+        // {
+        //   type: "Source",
+        //   href: "",
+        //   icon: <Icons.github className="size-3" />,
+        // },
       ],
       image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      video: "pakh.gif",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      title: "Shopify Dropshipping Stores",
+      href: "https://shopify.com",
+      dates: "April 2023 - Present",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
-      ],
+        "Developed various Shopify Dropshipping Stores integrating Zendrop, Zambeel, Tradelle.io for different clients arounf the globe",
+      technologies: ["Shopify", "Canva", "Paypal", "Cryptomus", "Stripe"],
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "https://shopify.com",
           icon: <Icons.globe className="size-3" />,
         },
       ],
       image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      video: "/shopify.gif",
     },
   ],
   hackathons: [
