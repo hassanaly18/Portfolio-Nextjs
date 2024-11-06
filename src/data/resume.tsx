@@ -69,6 +69,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Texlink Engineering Co.",
+      href: "https://texl-pak.vercel.app",
+      badges: [],
+      location: "Lahore, Pakistan.",
+      title: "Web App Developer",
+      logoUrl: "/texl.png",
+      start: "Sep 2024",
+      end: "Oct 2024",
+      description:
+        "Implemented their Web App for their clients to communicate with them and for them to have an online professional presence.",
+    },
+    {
       company: "Apple Land Pvt. Ltd",
       href: "https://applelandstore.pk",
       badges: [],
@@ -271,6 +283,29 @@ export const DATA = {
       ],
       image: "",
       video: "/shopify.gif",
+    },
+    {
+      title: "Texlink Engineering Co.",
+      href: "https://texl-pak.vercel.app",
+      dates: "September 2024 - October 2024",
+      active: true,
+      description:
+        "Developed as Web App for Pakistani Textile Machinery Supply Company Texlink Engineering Co.",
+      technologies: ["ReactJS", "Canva", "Vercel", "Tailwind"],
+      links: [
+        {
+          type: "Website",
+          href: "https://texl-pak.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        // {
+        //   type: "Source",
+        //   href: "https://github.com/magicuidesign/magicui",
+        //   icon: <Icons.github className="size-3" />,
+        // },
+      ],
+      image: "",
+      video: "/ssss.png",
     },
   ],
   hackathons: [
