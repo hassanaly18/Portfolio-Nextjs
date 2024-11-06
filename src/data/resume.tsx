@@ -304,8 +304,8 @@ export const DATA = {
         //   icon: <Icons.github className="size-3" />,
         // },
       ],
-      image: "/ssss.png",
-      video: "",
+      image: "",
+      video: "/texlgif.gif",
     },
   ],
   hackathons: [
