@@ -1,5 +1,6 @@
 import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
+// import { title } from "process";
 
 export const DATA = {
   name: "Hassan Ali Siddiqui",
@@ -12,11 +13,13 @@ export const DATA = {
   summary: "In 2023, I decided to go all-in on my love for web development, diving deep into the MERN stack, but with a special place in my heart for frontend magic. I’m always exploring the cutting edge of tech, which led me to the world of Web3, crypto, and blockchain. Building eCommerce sites with crypto payment gateways? Yep, I’ve done that! Right now, I’m having a blast learning Next.js, and I can’t wait to get my hands on Three.js to bring some 3D magic to the web.",
   avatarUrl: "/hassan2.gif",
   skills: [
-    "React",
+    "ReactJs",
+    "Next.js",
+    "ElectronJs",
     "Express",
     "Node.js",
     "MongoDB",
-    "Next.js",
+    "Supabase",
     "Javascript",
     "Python",
     "Flutter",
@@ -68,6 +71,30 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "H2H Technical Sercvices",
+      href: "https://h2htechservices.com",
+      badges: [],
+      location: "Deira, Dubai.",
+      title: "Web Developer",
+      logoUrl: "/h2h_black2.png",
+      start: "Nov 2024",
+      end: "Dec 2024",
+      description:
+        "Developed the [H2H Technical Services Website](https://h2htechservices.com) for the Dubai based Construction and Renovation Company on Next.Js.",
+    },
+    {
+      company: "Apple Land Pvt. Ltd.",
+      href: "https://www.linkedin.com/posts/hassan-siddiqui-110373234_webdevelopment-electronjs-databasedesign-activity-7276521889190076416-aP7g",
+      badges: [],
+      location: "Lahore, Pakistan",
+      title: "Desktop App Developer",
+      logoUrl: "/appleland.png",
+      start: "Sep 2024",
+      end: "Oct 2024",
+      description:
+        "Developed the CMS for AppleLand Store, using ElectronJS, ReactJS, and Supabase. They ca now manage their iPhone's stock, orders, and customers easily, with the integration of barcode reader, its easy to manage the stock. The software is also automatically generating bills and invoices for the customers.",
+    },
     {
       company: "Texlink Engineering Co.",
       href: "https://texl-pak.vercel.app",
@@ -189,6 +216,60 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "H2H Technical Services",
+      href: "https://h2htechservices.com",
+      dates: "Nov 2024 - Dec 2024",
+      active: true,
+      description:
+        "Developed the [H2H Technical Services Website](https://h2htechservices.com) for the Dubai based Construction and Renovation Company on Next.Js.",
+      technologies: ["Next.js", "Framer Motion", "Vercel"],
+      links: [
+        {
+          type: "Website",
+          href: "https://h2htechservices.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/h2h.gif",
+    },
+    {
+      title: "Apple Land CMS",
+      href: "https://www.linkedin.com/posts/hassan-siddiqui-110373234_webdevelopment-electronjs-databasedesign-activity-7276521889190076416-aP7g",
+      dates: "Sep 2024 - Oct 2024",
+      active: true,
+      description:
+        "Developed the CMS for AppleLand Store, using ElectronJS, ReactJS, and Supabase. They ca now manage their iPhone's stock, orders, and customers easily, with the integration of barcode reader, its easy to manage the stock. The software is also automatically generating bills and invoices for the customers.",
+      technologies: ["ElectronJS", "ReactJS", "Supabase", "Barcode Reader"],
+      links: [
+        {
+          type: "Desktop App",
+          href: "https://www.linkedin.com/posts/hassan-siddiqui-110373234_webdevelopment-electronjs-databasedesign-activity-7276521889190076416-aP7g",
+          icon: <Icons.linkedin className="size-3" />,
+        },
+      ],
+      image: "/appleLandcms.png",
+      video: ""
+    },
+    {
+      title: "Texlink Engineering Co.",
+      href: "https://texl-pak.vercel.app",
+      dates: "September 2024 - October 2024",
+      active: true,
+      description:
+        "Developed as Web App for Pakistani Textile Machinery Supply Company Texlink Engineering Co.",
+      technologies: ["ReactJS", "Canva", "Vercel", "Tailwind"],
+      links: [
+        {
+          type: "Website",
+          href: "https://texl-pak.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/texlgif.gif",
+    },
+    {
       title: "Bit-Donate",
       href: "https://bit-donate-react.vercel.app",
       dates: "Aug 2024",
@@ -234,11 +315,6 @@ export const DATA = {
           href: "https://applelandstore.pk",
           icon: <Icons.globe className="size-3" />,
         },
-        // {
-        //   type: "Source",
-        //   href: "https://github.com/magicuidesign/magicui",
-        //   icon: <Icons.github className="size-3" />,
-        // },
       ],
       image: "",
       video: "/applegif.gif",
@@ -257,11 +333,6 @@ export const DATA = {
           href: "",
           icon: <Icons.globe className="size-3" />,
         },
-        // {
-        //   type: "Source",
-        //   href: "",
-        //   icon: <Icons.github className="size-3" />,
-        // },
       ],
       image: "",
       video: "pakh.gif",
@@ -284,29 +355,7 @@ export const DATA = {
       image: "",
       video: "/shopify.gif",
     },
-    {
-      title: "Texlink Engineering Co.",
-      href: "https://texl-pak.vercel.app",
-      dates: "September 2024 - October 2024",
-      active: true,
-      description:
-        "Developed as Web App for Pakistani Textile Machinery Supply Company Texlink Engineering Co.",
-      technologies: ["ReactJS", "Canva", "Vercel", "Tailwind"],
-      links: [
-        {
-          type: "Website",
-          href: "https://texl-pak.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-        // {
-        //   type: "Source",
-        //   href: "https://github.com/magicuidesign/magicui",
-        //   icon: <Icons.github className="size-3" />,
-        // },
-      ],
-      image: "",
-      video: "/texlgif.gif",
-    },
+    
   ],
   hackathons: [
     {

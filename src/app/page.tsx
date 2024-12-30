@@ -5,11 +5,37 @@ import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import IconCloud from "@/components/ui/icon-cloud";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
 const BLUR_FADE_DELAY = 0.04;
+
+const slugs = [
+  // "typescript",
+  "javascript",
+  "dart",
+  "java",
+  "react",
+  "flutter",
+  // "android",
+  "html5",
+  "css3",
+  "nodedotjs",
+  "express",
+  "nextdotjs",
+  "firebase",
+  "vercel",
+  "git",
+  "github",
+  "visualstudiocode",
+  "figma",
+  "electron",
+  "elementor",
+  "bitcoin",
+  "c"
+];
 
 export default function Page() {
   return (
@@ -109,6 +135,9 @@ export default function Page() {
               </BlurFade>
             ))}
           </div>
+        </div>
+        <div>
+          <IconCloud iconSlugs={slugs}/>
         </div>
       </section>
       <section id="projects">
