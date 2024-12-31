@@ -248,7 +248,7 @@ export const DATA = {
           icon: <Icons.linkedin className="size-3" />,
         },
       ],
-      image: "/appleLandcms.png",
+      image: "/appleLandCms.gif",
       video: ""
     },
     {
