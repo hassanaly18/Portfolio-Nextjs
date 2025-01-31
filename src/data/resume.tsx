@@ -60,7 +60,7 @@ export const DATA = {
         icon: Icons.facebook,
         navbar: false,
       },
-      email: {
+      Email: {
         name: "Send Email",
         url: "https://shorturl.at/1flv7",
         icon: Icons.email,
@@ -215,6 +215,24 @@ export const DATA = {
     // },
   ],
   projects: [
+    {
+      title: "Bit-Byte",
+      href: "https://bit-byte.us",
+      dates: "Jan",
+      active: true,
+      description:
+        "Developed the [Bit-Byte Website](https://bit-byte.us) for the US based Embedded Firmware Development Company through Upwork.",
+      technologies: ["HTML", "Bootstrap", "JavaScript", "Vercel", "Github"],
+      links: [
+        {
+          type: "Website",
+          href: "https://bit-byte.us",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/bb.png",
+    },
     {
       title: "H2H Technical Services",
       href: "https://h2htechservices.com",
