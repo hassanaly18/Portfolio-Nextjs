@@ -72,6 +72,18 @@ export const DATA = {
 
   work: [
     {
+      company: "Destination To Paradise",
+      href: "https://destinationtoparadise.com",
+      badges: [],
+      location: "Bangkok, Thailand.",
+      title: "Web Developer",
+      logoUrl: "/destparalogo.png",
+      start: "Feb 2025",
+      end: "Mar 2025",
+      description:
+        "Developed Destination To Paradise Next.js website for a Thai Travel Agency, with proper SEO and an admin panel for uploading, deleting, editing a new tour, from the Supabase Database.",
+    },
+    {
       company: "H2H Technical Sercvices",
       href: "https://h2htechservices.com",
       badges: [],
@@ -81,7 +93,7 @@ export const DATA = {
       start: "Nov 2024",
       end: "Dec 2024",
       description:
-        "Developed the [H2H Technical Services Website](https://h2htechservices.com) for the Dubai based Construction and Renovation Company on Next.Js.",
+        "Developed the H2H Technical Services Website for the Dubai based Construction and Renovation Company on Next.Js.",
     },
     {
       company: "Apple Land Pvt. Ltd.",
@@ -216,9 +228,27 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "Destination To Paradise",
+      href: "https://www.destinationtoparadise.com",
+      dates: "Feb 2025 - Mar 2025",
+      active: true,
+      description:
+        "Developed [Destination To Paradise](https://www.destinationtoparadise.com) for a Thai Travel Agency, with proper SEO and an admin panel for uploading, deleting, editing a new tour, from the Supabase Database.",
+      technologies: ["Next.js", "Supabase", "Framer Motion", "Vercel"],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.destinationtoparadise.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "/destpara.gif",
+    },
+    {
       title: "Bit-Byte",
       href: "https://bit-byte.us",
-      dates: "Jan",
+      dates: "Jan 2025",
       active: true,
       description:
         "Developed the [Bit-Byte Website](https://bit-byte.us) for the US based Embedded Firmware Development Company through Upwork.",
